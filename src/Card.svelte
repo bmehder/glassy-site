@@ -44,10 +44,11 @@
     height: 25%;
     border-radius: 1rem;
   }
+
   progress[value]::-webkit-progress-value {
     background-color: #6cdbeb;
-    border-radius: 2px;
   }
+
   div {
     display: flex;
     flex-direction: column;
