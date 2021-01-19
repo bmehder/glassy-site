@@ -1,7 +1,7 @@
 <script>
-  import Sidebar from "./Sidebar.svelte";
-  import Main from "./Main.svelte";
-  import Circle from "./Circle.svelte";
+  import Circle from "./components/Circle.svelte";
+  import Sidebar from "./layout/Sidebar.svelte";
+  import Main from "./layout/Main.svelte";
 </script>
 
 <main>
@@ -28,7 +28,7 @@
     background: white;
     margin: 2rem;
     min-height: 80vh;
-    width: 1024px;
+    max-width: 1024px;
     background: linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.7),
@@ -38,5 +38,12 @@
     z-index: 2;
     backdrop-filter: blur(2rem);
     display: flex;
+  }
+
+  @media (max-width: 480px) {
+    section {
+      flex-direction: column;
+      margin: 0;
+    }
   }
 </style>

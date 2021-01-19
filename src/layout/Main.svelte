@@ -1,5 +1,5 @@
 <script>
-  import Input from "./Input.svelte";
+  import Input from "../components/Input.svelte";
   import Cards from "./Cards.svelte";
 
   export let title;

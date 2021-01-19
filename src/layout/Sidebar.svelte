@@ -1,7 +1,7 @@
 <script>
-  import User from "./User.svelte";
+  import User from "../components/User.svelte";
   import Links from "./Links.svelte";
-  import Ad from "./Ad.svelte";
+  import Ad from "../components/Ad.svelte";
 </script>
 
 <section>

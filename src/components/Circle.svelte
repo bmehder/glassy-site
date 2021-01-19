@@ -5,19 +5,18 @@
   export let left;
 </script>
 
-<article style="top:{top}; right:{right}; bottom:{bottom}; left:{left};" />
+<div style="top:{top}; right:{right}; bottom:{bottom}; left:{left};" />
 
 <style>
-  article {
-    background: white;
+  div {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
     background: linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.3)
     );
-    height: 10rem;
-    width: 10rem;
-    position: absolute;
     border-radius: 50%;
   }
 </style>
